@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+html {
+	overflow-y:scroll;
+	overflow:scroll;
+}
+body {
+	margin:0px;
+	background-color:#ffffff;
+	font-family: 'Jeju Myeongjo', serif;
+	/* 	font-size:80%; */
+}
+
+a:LINK{color: #0000ff; text-decoration: none;}
+a:VISITED{color: #0000ff; text-decoration: none;}
+a:HOVER{color: #0000ff; text-decoration: underline;}
+
+img {
+	margin-top:0px;
+	border:#cccccc solid 0px;
+}
+
+
+table.aqua {
+	font-size:inherit;
+	font:100%;
+	border-collapse:collapse;
+	border:1px #000000 solid;
+	width:1024px;
+}
+table.aqua th {border:1px #000000 solid; background-color: #FCFF00; text-align: center;}
+table.aqua td {border:1px #000000 none;}
+
+table.addaqua {
+	font-size:inherit;
+	font:100%;
+	border-collapse:collapse;
+	border:1px #eeeeee solid;
+}
+table.addaqua th {border:1px gray solid; background-color: #eeeeee; text-align: center;}
+table.addaqua td {border:1px gray solid;}
+
+table.aquadetail {
+	font-size:inherit;
+	font:100%;
+	border-collapse:collapse;
+	border:1px #eeeeee solid;
+}
+table.aquadetail th {border:1px gray solid; background-color: #eeeeee; text-align: center;}
+table.aquadetail td {border:1px gray solid;}
+
+table.aquacontrol {
+	font-size:inherit;
+	font:100%;
+	border-collapse:collapse;
+	border:1px #eeeeee solid;
+	width: 95%;
+}
+table.aquacontrol th {border:1px gray solid; background-color: #eeeeee; text-align: center;}
+table.aquacontrol th.vv {border:1px gray solid; background-color: #ffffff; text-align: center; padding-top: 10px; padding-bottom: 10px;}
+table.aquacontrol td {border:1px gray solid;}
+

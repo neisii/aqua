@@ -1,0 +1,55 @@
+	@CHARSET "UTF-8";
+	
+	.sidebarmenu ul{
+	margin: 0;
+	padding: 5px;
+	list-style-type: none;
+	font: bold 13px Verdana;
+	width: 170px; /* Main Menu Item widths */
+	border-bottom: 1px solid #ccc;
+	}
+	 
+	.sidebarmenu ul li{ /* 서브메뉴표시 위치 */
+	position: relative;
+	}
+	
+	/* Top level menu links style */
+	.sidebarmenu ul li a{
+	display: block;
+	overflow: auto; /*force hasLayout in IE7 */
+	color: #cbd5d2; /* 기본 글자 색상 */
+	text-decoration: none;
+	padding: 6px;
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+	}
+	
+	.sidebarmenu ul li a:link, .sidebarmenu ul li a:visited, .sidebarmenu ul li a:active{
+	background-color: #386ba1; /*background of tabs (default state) 배경색*/ 
+	}
+	
+	.sidebarmenu ul li a:visited{ /* 클릭 된 */
+	color: #cbd5d2;
+	}
+	
+	.sidebarmenu ul li a:hover{
+	background-color: #98EBFD; /* 마우스 오버 시 */
+	}
+	
+	/*Sub level menu items */
+	.sidebarmenu ul li ul{
+	position: absolute;
+	width: 170px; /*Sub Menu Items width */
+	top: 0;
+	visibility: hidden;
+	}
+	
+	.sidebarmenu a.subfolderstyle{
+	background: url(right.gif) no-repeat 97% 50%;
+	}
+	
+	 
+	/* Holly Hack for IE \*/
+	* html .sidebarmenu ul li { float: left; height: 1%; }
+	* html .sidebarmenu ul li a { height: 1%; }
+	/* End */
